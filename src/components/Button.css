@@ -1,0 +1,37 @@
+.key-button {
+  font-family: Consolas, 'Courier New', Courier, monospace;
+  font-size: 2rem;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  aspect-ratio: 1.5;
+}
+
+.key-button-numeric:hover {
+  background-color: whitesmoke;
+}
+.key-button-numeric:active {
+  background-color: #e8e8e8;
+}
+
+.key-button-function {
+  background-color: #f8f8f8;
+}
+.key-button-function:hover {
+  background-color: #f0f0f0;
+}
+.key-button-function:active {
+  background-color: #e8e8e8;
+}
+
+.key-button-equal {
+  background-color: #202020;
+  color: white;
+}
+.key-button-equal:hover {
+  opacity: 90%;
+}
+.key-button-equal:active {
+  opacity: 80%;
+}

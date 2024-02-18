@@ -1,0 +1,16 @@
+.calculator-keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+.calculator-main {
+  max-width: 500px;
+  padding: 10px;
+  margin: auto;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}

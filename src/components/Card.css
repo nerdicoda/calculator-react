@@ -1,0 +1,17 @@
+.card {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  background-color: whitesmoke;
+}
+
+.card-title {
+  margin: 0.5rem;
+}
+
+.card-content {
+  font-size: 3.2rem;
+  margin: auto;
+}

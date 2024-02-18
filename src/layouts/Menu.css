@@ -1,0 +1,24 @@
+.menu {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-item-text-underline,
+.menu-item-text:hover,
+.menu-item-text:active {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
+
+.menu-item + .menu-item::before {
+  content: '|';
+  margin: 0 10px;
+}

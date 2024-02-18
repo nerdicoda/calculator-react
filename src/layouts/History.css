@@ -1,0 +1,7 @@
+.calculator-history {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  margin: auto;
+  max-width: 1000px;
+}
