@@ -10,7 +10,7 @@ This sample demonstrates basic concepts of React:
 - repeat components with array,
 - render components based on conditions,
 - pass information down to child components with `props`,
-- add event listeners to HTML elements,
+- add event listeners to elements,
 - manage state with `useState` hook,
 - maintain value between re-renders with `useRef` hook,
 - synchronize React states with external systems using `useEffect` hook, and
